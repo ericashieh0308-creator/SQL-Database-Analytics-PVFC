@@ -44,6 +44,23 @@ The project included:
 
 The `Order Product` table serves as a bridge table connecting orders, products, and product finishes.
 
+### Database Architecture
+
+The database was designed using both logical and relational data models to translate PVFC's business entities into a structured relational database.
+
+#### Logical Data Model
+
+The logical model defines the major business entities and their relationships before implementation.
+
+![PVFC Logical Data Model](visuals/logical_data_model.png)
+
+#### Relational Data Model
+
+The relational model translates the business structure into database tables with primary keys, foreign keys, and relationship constraints.
+
+![PVFC Relational Data Model](visuals/relational_data_model.png)
+
+A key design decision was the use of `GB_ORD_PROD` as a bridge table to resolve the many-to-many relationship between orders and products.
 ---
 
 ## 🔍 SQL Business Analysis
