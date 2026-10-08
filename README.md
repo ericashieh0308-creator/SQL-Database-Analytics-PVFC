@@ -169,4 +169,6 @@ The project involved collaborative work across database modeling, database imple
 
 ## 📄 Full Project Report
 
-The full project report includes the database models, SQL queries, query outputs, indexing strategy, stored procedure, execution plans, and project conclusions.
+The complete report documents the full database development process, including relational data modeling, database implementation, SQL business analysis, indexing strategies, stored procedures, and query execution plans.
+
+[View Full Project Report](report/PVFC_Database_Analytics_Report.pdf)
